@@ -1,0 +1,60 @@
+body { 
+    font: 8pt Verdana, Geneva, Arial, Helvetica, sans-serif; 
+    margin: 10 0 10 0px; 
+    background-color: #ebebeb; 
+} 
+
+#contenedor{ 
+    text-align: left; 
+    width: 770px; 
+    margin: auto; 
+} 
+
+#cabecera{ 
+    background-color: #422AE4; 
+    color: #333300; 
+    font-size:32pt; 
+    font-weight: bold; 
+    padding: 3 3 3 10px; 
+    text-align: center;
+} 
+#cuerpo{ 
+    margin: 10 0 10 0px; 
+} 
+#lateral{ 
+    width: 160px; 
+    background-color: #999999; 
+    float:left; 
+} 
+#lateral ul{ 
+    margin : 0 0 0 0px; 
+    padding: 0 0 0 0px; 
+    list-style: none; 
+} 
+#lateral li{ 
+    background-color: #fff; 
+    margin: 2 2 2 2px; 
+    padding: 2 2 2 2px; 
+    font-weight: bold; 
+} 
+#lateral a{ 
+    color: #3333cc; 
+    text-decoration: none; 
+} 
+#otrolado{ 
+    width: 120px; 
+    float: right;   
+} 
+#principal{ 
+    margin-left: 170px; 
+    background-color: #ffffff; 
+    padding: 4 4 4 4px; 
+    width: 460px; 
+    text-align: center;
+} 
+#pie{ 
+    background-color: #cccccc; 
+    padding: 3 10 3 10px; 
+    text-align:right; 
+     
+}
