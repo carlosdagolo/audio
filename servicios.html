@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Audio Auto</title>
+     
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+
+
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Audio Auto</h1>
+            <h1>Servicios</h1>
+            <br>
+             <br>
+             <br>
+            <a href="index.html" class="btn btn-dark btn-lg">inicio</a>
+             <br>
+             <br>
+             <br>
+             <br>
+            <h2>Venta</h2>
+            <br>
+            <br>
+            <img src="img/ventas.png" width="550" height="450" alt="">
+            <br>
+             <h1 style="color: #FFFFFF">te ofrercemos los ultimos productos del mercado para que adecues tu vehiculo y vivas la mejor calidad de sonido              y lujos</h1>
+            <br>
+            <br>
+            <br>     
+            <br> 
+            <br> 
+            <h2>Reparacion</h2>
+            <br>
+            <br>
+            <img src="img/reparaciones.jpg" width="550" height="450" alt="">
+            <br>
+            <h1 style="color: #FFFFFF">contamos con personal calificado, que brindara el mejor soporte para equipos de sonido o electronicos </h1>
+            <br>
+            <br>
+            <br>     
+            <br> 
+            <br>
+            <h2>Instalacion</h2>
+            <br>
+            <br>
+            <img src="img/instalacion.jpg" width="550" height="450" alt="">
+            <br>
+            <h1 style="color: #FFFFFF">Con personal calificado y con años de experiencia, te ofrecemos los mejores servicios de instalacion de la                   ciudad 100% garantizados</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+ 
+           <a href="index.html" class="btn btn-dark btn-lg">inicio</a>
+            <br>
+            <br>
+            <br>
+            <br> 
+                 
+                 
+        </div>
+    </header>
+
+
+ 
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
+</html>

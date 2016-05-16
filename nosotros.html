@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Audio Auto</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Audio Auto</h1>
+            <h1>Nosotros</h1>
+            <br>
+            <a href="index.html" class="btn btn-dark btn-lg">inicio</a>
+             <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Tenemos la mejor calidad de sonido para que modifiques al gusto tu auto</h1>
+                     <h2 style="color: #00000">Mejores precios de la ciudad con gran cantidad de promociones</h2>
+                      <h2 style="color: #00000"> Más de 20 años de trayectoria  que lo llevan a tener la mejor experiencia de sonido en su                                     vehìculo</h2>
+
+
+                    <h2 style="color: #00000"> hubicados en la cidudad de manizales desde 1990 prestamos los mejores servicios de venta e instalacion                      de sonido en la ciudad, contamos con las utimas tendencias tecnologicas  que lo llevaran a tener una experiencia única. Venta de                          accesorios y lujos para su auto ademas contamos con un servicio tecnico y reparacion</h2>
+                    
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <img src="img/carronos.jpg" width="550" height="450" alt="">
+            
+        </div>
+    </header>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
+</html>
